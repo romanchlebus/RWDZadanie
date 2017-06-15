@@ -1,0 +1,83 @@
+@media all and (min-width: 1170px){
+    #zdjecie2 {
+        display: none;
+    }
+    #stopka{
+        display: none;
+    }
+    #zdjecie1{
+        background-size: cover;
+        background-position: center; 
+    }
+     .innerDiv {
+         color: white;
+         line-height: 4vw;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-47vw, -5vw);
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1170px){
+    
+     #zdjecie1 {
+        display: none;
+    }
+      #stopka>p{
+        display: none;
+    }
+    #zdjecie2{
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+    }
+    #stopka{
+        width: 100%;
+        height: 20%;
+    }
+     .innerDiv{
+         color: white;
+         line-height: 4vw;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(5vw, -19vw);
+    }
+    
+}
+
+@media all and (max-width: 992px){
+    #zdjecie2 {
+        display: none;
+    }
+    
+      .innerDiv {
+       display: none;
+    }
+    
+    #zdjecie1{
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+        background-position: center; 
+    }
+    
+     #stopka > .mala {
+         color: black;
+         position: absolute;
+         top: 5%;
+         left: 0;
+         right: 0;
+         bottom: 0;
+    }
+    
+    #stopka{
+        position: relative;
+        line-height: 5vw;
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+    }
+}
